@@ -1,47 +1,29 @@
-"use strict";
-/* alert('Hello'); */
+/* Задание на урок:
 
-/* const result = confirm("Are you here?"); */
-/* console.log(result); */
+1) Создать переменную numberOfFilms и в неё поместить ответ от пользователя на вопрос:
+'Сколько фильмов вы уже посмотрели?'
 
-/* const answer = +prompt("Вам есть 18?", "18");
-console.log(answer + 5); */
+2) Создать объект personalMovieDB и в него поместить такие свойства:
+    - count - сюда передается ответ на первый вопрос
+    - movies - в это свойство поместить пустой объект
+    - actors - тоже поместить пустой объект
+    - genres - сюда поместить пустой массив
+    - privat - в это свойство поместить boolean(логическое) значение false
 
-/* const answers = [];
+3) Задайте пользователю по два раза вопросы:
+    - 'Один из последних просмотренных фильмов?'
+    - 'На сколько оцените его?'
+Ответы стоит поместить в отдельные переменные
+Записать ответы в объект movies в формате: 
+    movies: {
+        'logan': '8.1'
+    }
 
-answers[0] = prompt('Как ваше имя?', '');
-answers[1] = prompt('Как ваша фамилия?', '');
-answers[2] = prompt('Сколько вам лет?', '');
+Проверить, чтобы все работало без ошибок в консоли */
 
-document.write(answers); */
+'use strict';
 
-/* const category = 'toys';
-console.log(`https://someurl.com/${category}/5`);
-
-const user = "Ivan";
-
-alert(`Привет, ${user}`); */
-
-console.log(6 + "7");
-
-let incr = 10, decro = 10;
-
-/* incr++;
-decro--; */
-console.log(++incr);
-console.log(--decro);
-
-console.log(5%2); 
-
-console.log(2*4 === 8); //строгое равенство ===
-
-
-
-const isChecked = true,
-        isClose = false;
-
-        console.log(isChecked || isClose); // или то или то true
-        console.log(isChecked && isClose); //и это и это верно если оба true. оператор отрецаня !
-
-
-
+const personalMovieDB {
+    count: 
+    movies: 
+}
