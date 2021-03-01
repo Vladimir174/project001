@@ -21,7 +21,7 @@
 
 Проверить, чтобы все работало без ошибок в консоли */
 
-'use strict';
+/* 'use strict';
 
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
@@ -41,4 +41,15 @@ const a = prompt('Один из последних прсмотренных фи
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+console.log(personalMovieDB); */
+
+const infPerson = [];
+
+infPerson[0] = prompt('Name ', '');
+infPerson[1] = prompt('Surname ', '');
+infPerson[2] = prompt('Age ', '');
+
+document.write(infPerson);
+document.write(`https://vk.com/${infPerson[1]}/${infPerson[0]}/${infPerson[2]}`);
+
+alert(`Привет , ${infPerson[0]}`);
